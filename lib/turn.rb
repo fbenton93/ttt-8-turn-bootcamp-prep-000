@@ -24,6 +24,7 @@ def valid_move?(board,index)
     return true
   else
     return false
+  end
 end
 
 def move(board,index_value,player = "X")
